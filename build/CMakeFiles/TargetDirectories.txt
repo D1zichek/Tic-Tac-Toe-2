@@ -1,0 +1,3 @@
+C:/Users/parky/TTC/build/CMakeFiles/TTC.dir
+C:/Users/parky/TTC/build/CMakeFiles/edit_cache.dir
+C:/Users/parky/TTC/build/CMakeFiles/rebuild_cache.dir

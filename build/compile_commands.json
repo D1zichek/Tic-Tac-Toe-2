@@ -1,0 +1,32 @@
+[
+{
+  "directory": "C:/Users/parky/TTC/build",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe   -g -std=gnu++17 -o CMakeFiles\\TTC.dir\\Code\\main.cpp.obj -c C:\\Users\\parky\\TTC\\Code\\main.cpp",
+  "file": "C:/Users/parky/TTC/Code/main.cpp",
+  "output": "CMakeFiles/TTC.dir/Code/main.cpp.obj"
+},
+{
+  "directory": "C:/Users/parky/TTC/build",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe   -g -std=gnu++17 -o CMakeFiles\\TTC.dir\\Code\\game.cpp.obj -c C:\\Users\\parky\\TTC\\Code\\game.cpp",
+  "file": "C:/Users/parky/TTC/Code/game.cpp",
+  "output": "CMakeFiles/TTC.dir/Code/game.cpp.obj"
+},
+{
+  "directory": "C:/Users/parky/TTC/build",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe   -g -std=gnu++17 -o CMakeFiles\\TTC.dir\\Code\\board.cpp.obj -c C:\\Users\\parky\\TTC\\Code\\board.cpp",
+  "file": "C:/Users/parky/TTC/Code/board.cpp",
+  "output": "CMakeFiles/TTC.dir/Code/board.cpp.obj"
+},
+{
+  "directory": "C:/Users/parky/TTC/build",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe   -g -std=gnu++17 -o CMakeFiles\\TTC.dir\\Code\\history.cpp.obj -c C:\\Users\\parky\\TTC\\Code\\history.cpp",
+  "file": "C:/Users/parky/TTC/Code/history.cpp",
+  "output": "CMakeFiles/TTC.dir/Code/history.cpp.obj"
+},
+{
+  "directory": "C:/Users/parky/TTC/build",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe   -g -std=gnu++17 -o CMakeFiles\\TTC.dir\\Code\\settings.cpp.obj -c C:\\Users\\parky\\TTC\\Code\\settings.cpp",
+  "file": "C:/Users/parky/TTC/Code/settings.cpp",
+  "output": "CMakeFiles/TTC.dir/Code/settings.cpp.obj"
+}
+]
