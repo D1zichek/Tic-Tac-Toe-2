@@ -8,11 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "C:/Users/parky/TTC/Code/board.cpp" "CMakeFiles/TTC.dir/Code/board.cpp.obj" "gcc" "CMakeFiles/TTC.dir/Code/board.cpp.obj.d"
-  "C:/Users/parky/TTC/Code/game.cpp" "CMakeFiles/TTC.dir/Code/game.cpp.obj" "gcc" "CMakeFiles/TTC.dir/Code/game.cpp.obj.d"
-  "C:/Users/parky/TTC/Code/history.cpp" "CMakeFiles/TTC.dir/Code/history.cpp.obj" "gcc" "CMakeFiles/TTC.dir/Code/history.cpp.obj.d"
-  "C:/Users/parky/TTC/Code/main.cpp" "CMakeFiles/TTC.dir/Code/main.cpp.obj" "gcc" "CMakeFiles/TTC.dir/Code/main.cpp.obj.d"
-  "C:/Users/parky/TTC/Code/settings.cpp" "CMakeFiles/TTC.dir/Code/settings.cpp.obj" "gcc" "CMakeFiles/TTC.dir/Code/settings.cpp.obj.d"
+  "C:/Users/parky/TTC/main.cpp" "CMakeFiles/TTC.dir/main.cpp.obj" "gcc" "CMakeFiles/TTC.dir/main.cpp.obj.d"
   )
 
 # Targets to which this target links which contain Fortran sources.

@@ -1,8 +1,5 @@
 #include <iostream>
 #include "game.hpp"
-#include "settings.hpp"
-#include "history.hpp"
-#include "board.hpp"
 
 int main() {
     int choice;

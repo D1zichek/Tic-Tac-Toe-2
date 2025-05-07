@@ -71,97 +71,35 @@ include CMakeFiles/TTC.dir/flags.make
 CMakeFiles/TTC.dir/codegen:
 .PHONY : CMakeFiles/TTC.dir/codegen
 
-CMakeFiles/TTC.dir/Code/main.cpp.obj: CMakeFiles/TTC.dir/flags.make
-CMakeFiles/TTC.dir/Code/main.cpp.obj: C:/Users/parky/TTC/Code/main.cpp
-CMakeFiles/TTC.dir/Code/main.cpp.obj: CMakeFiles/TTC.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\parky\TTC\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/TTC.dir/Code/main.cpp.obj"
-	C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/TTC.dir/Code/main.cpp.obj -MF CMakeFiles\TTC.dir\Code\main.cpp.obj.d -o CMakeFiles\TTC.dir\Code\main.cpp.obj -c C:\Users\parky\TTC\Code\main.cpp
+CMakeFiles/TTC.dir/main.cpp.obj: CMakeFiles/TTC.dir/flags.make
+CMakeFiles/TTC.dir/main.cpp.obj: CMakeFiles/TTC.dir/includes_CXX.rsp
+CMakeFiles/TTC.dir/main.cpp.obj: C:/Users/parky/TTC/main.cpp
+CMakeFiles/TTC.dir/main.cpp.obj: CMakeFiles/TTC.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\parky\TTC\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/TTC.dir/main.cpp.obj"
+	C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/TTC.dir/main.cpp.obj -MF CMakeFiles\TTC.dir\main.cpp.obj.d -o CMakeFiles\TTC.dir\main.cpp.obj -c C:\Users\parky\TTC\main.cpp
 
-CMakeFiles/TTC.dir/Code/main.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/TTC.dir/Code/main.cpp.i"
-	C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\parky\TTC\Code\main.cpp > CMakeFiles\TTC.dir\Code\main.cpp.i
+CMakeFiles/TTC.dir/main.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/TTC.dir/main.cpp.i"
+	C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\parky\TTC\main.cpp > CMakeFiles\TTC.dir\main.cpp.i
 
-CMakeFiles/TTC.dir/Code/main.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/TTC.dir/Code/main.cpp.s"
-	C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\parky\TTC\Code\main.cpp -o CMakeFiles\TTC.dir\Code\main.cpp.s
-
-CMakeFiles/TTC.dir/Code/game.cpp.obj: CMakeFiles/TTC.dir/flags.make
-CMakeFiles/TTC.dir/Code/game.cpp.obj: C:/Users/parky/TTC/Code/game.cpp
-CMakeFiles/TTC.dir/Code/game.cpp.obj: CMakeFiles/TTC.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\parky\TTC\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/TTC.dir/Code/game.cpp.obj"
-	C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/TTC.dir/Code/game.cpp.obj -MF CMakeFiles\TTC.dir\Code\game.cpp.obj.d -o CMakeFiles\TTC.dir\Code\game.cpp.obj -c C:\Users\parky\TTC\Code\game.cpp
-
-CMakeFiles/TTC.dir/Code/game.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/TTC.dir/Code/game.cpp.i"
-	C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\parky\TTC\Code\game.cpp > CMakeFiles\TTC.dir\Code\game.cpp.i
-
-CMakeFiles/TTC.dir/Code/game.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/TTC.dir/Code/game.cpp.s"
-	C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\parky\TTC\Code\game.cpp -o CMakeFiles\TTC.dir\Code\game.cpp.s
-
-CMakeFiles/TTC.dir/Code/board.cpp.obj: CMakeFiles/TTC.dir/flags.make
-CMakeFiles/TTC.dir/Code/board.cpp.obj: C:/Users/parky/TTC/Code/board.cpp
-CMakeFiles/TTC.dir/Code/board.cpp.obj: CMakeFiles/TTC.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\parky\TTC\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/TTC.dir/Code/board.cpp.obj"
-	C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/TTC.dir/Code/board.cpp.obj -MF CMakeFiles\TTC.dir\Code\board.cpp.obj.d -o CMakeFiles\TTC.dir\Code\board.cpp.obj -c C:\Users\parky\TTC\Code\board.cpp
-
-CMakeFiles/TTC.dir/Code/board.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/TTC.dir/Code/board.cpp.i"
-	C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\parky\TTC\Code\board.cpp > CMakeFiles\TTC.dir\Code\board.cpp.i
-
-CMakeFiles/TTC.dir/Code/board.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/TTC.dir/Code/board.cpp.s"
-	C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\parky\TTC\Code\board.cpp -o CMakeFiles\TTC.dir\Code\board.cpp.s
-
-CMakeFiles/TTC.dir/Code/history.cpp.obj: CMakeFiles/TTC.dir/flags.make
-CMakeFiles/TTC.dir/Code/history.cpp.obj: C:/Users/parky/TTC/Code/history.cpp
-CMakeFiles/TTC.dir/Code/history.cpp.obj: CMakeFiles/TTC.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\parky\TTC\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/TTC.dir/Code/history.cpp.obj"
-	C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/TTC.dir/Code/history.cpp.obj -MF CMakeFiles\TTC.dir\Code\history.cpp.obj.d -o CMakeFiles\TTC.dir\Code\history.cpp.obj -c C:\Users\parky\TTC\Code\history.cpp
-
-CMakeFiles/TTC.dir/Code/history.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/TTC.dir/Code/history.cpp.i"
-	C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\parky\TTC\Code\history.cpp > CMakeFiles\TTC.dir\Code\history.cpp.i
-
-CMakeFiles/TTC.dir/Code/history.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/TTC.dir/Code/history.cpp.s"
-	C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\parky\TTC\Code\history.cpp -o CMakeFiles\TTC.dir\Code\history.cpp.s
-
-CMakeFiles/TTC.dir/Code/settings.cpp.obj: CMakeFiles/TTC.dir/flags.make
-CMakeFiles/TTC.dir/Code/settings.cpp.obj: C:/Users/parky/TTC/Code/settings.cpp
-CMakeFiles/TTC.dir/Code/settings.cpp.obj: CMakeFiles/TTC.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\parky\TTC\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/TTC.dir/Code/settings.cpp.obj"
-	C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/TTC.dir/Code/settings.cpp.obj -MF CMakeFiles\TTC.dir\Code\settings.cpp.obj.d -o CMakeFiles\TTC.dir\Code\settings.cpp.obj -c C:\Users\parky\TTC\Code\settings.cpp
-
-CMakeFiles/TTC.dir/Code/settings.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/TTC.dir/Code/settings.cpp.i"
-	C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\parky\TTC\Code\settings.cpp > CMakeFiles\TTC.dir\Code\settings.cpp.i
-
-CMakeFiles/TTC.dir/Code/settings.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/TTC.dir/Code/settings.cpp.s"
-	C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\parky\TTC\Code\settings.cpp -o CMakeFiles\TTC.dir\Code\settings.cpp.s
+CMakeFiles/TTC.dir/main.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/TTC.dir/main.cpp.s"
+	C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\parky\TTC\main.cpp -o CMakeFiles\TTC.dir\main.cpp.s
 
 # Object files for target TTC
 TTC_OBJECTS = \
-"CMakeFiles/TTC.dir/Code/main.cpp.obj" \
-"CMakeFiles/TTC.dir/Code/game.cpp.obj" \
-"CMakeFiles/TTC.dir/Code/board.cpp.obj" \
-"CMakeFiles/TTC.dir/Code/history.cpp.obj" \
-"CMakeFiles/TTC.dir/Code/settings.cpp.obj"
+"CMakeFiles/TTC.dir/main.cpp.obj"
 
 # External object files for target TTC
 TTC_EXTERNAL_OBJECTS =
 
-TTC.exe: CMakeFiles/TTC.dir/Code/main.cpp.obj
-TTC.exe: CMakeFiles/TTC.dir/Code/game.cpp.obj
-TTC.exe: CMakeFiles/TTC.dir/Code/board.cpp.obj
-TTC.exe: CMakeFiles/TTC.dir/Code/history.cpp.obj
-TTC.exe: CMakeFiles/TTC.dir/Code/settings.cpp.obj
+TTC.exe: CMakeFiles/TTC.dir/main.cpp.obj
 TTC.exe: CMakeFiles/TTC.dir/build.make
+TTC.exe: lib/liblibttc.a
 TTC.exe: CMakeFiles/TTC.dir/linkLibs.rsp
 TTC.exe: CMakeFiles/TTC.dir/objects1.rsp
 TTC.exe: CMakeFiles/TTC.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=C:\Users\parky\TTC\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Linking CXX executable TTC.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=C:\Users\parky\TTC\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable TTC.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\TTC.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

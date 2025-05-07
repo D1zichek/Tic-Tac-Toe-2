@@ -1,15 +1,14 @@
-cmake_minimum_required(VERSION 3.10) 
+cmake_minimum_required(VERSION 3.10)
+project(TTC)
 
-project(TTC) 
+set(CMAKE_CXX_STANDARD 17)
 
-set(CMAKE_CXX_STANDARD 17) 
+option(BUILD_SHARED_LIBS "Build as shared library" OFF)
 
-set(SOURCES
-    "Code/main.cpp"
-    "Code/game.cpp"
-    "Code/board.cpp"
-    "Code/history.cpp"
-    "Code/settings.cpp"
-)
+add_subdirectory(lib)
 
-add_executable(${PROJECT_NAME} ${SOURCES})
+add_executable(TTC main.cpp)
+target_link_libraries(TTC PRIVATE libttc)
+
+
+

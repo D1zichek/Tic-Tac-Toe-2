@@ -128,125 +128,42 @@ TTC/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\TTC.dir\build.make CMakeFiles/TTC.dir/build
 .PHONY : TTC/fast
 
-Code/board.obj: Code/board.cpp.obj
-.PHONY : Code/board.obj
+#=============================================================================
+# Target rules for targets named libttc
+
+# Build rule for target.
+libttc: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 libttc
+.PHONY : libttc
+
+# fast build rule for target.
+libttc/fast:
+	$(MAKE) $(MAKESILENT) -f lib\CMakeFiles\libttc.dir\build.make lib/CMakeFiles/libttc.dir/build
+.PHONY : libttc/fast
+
+main.obj: main.cpp.obj
+.PHONY : main.obj
 
 # target to build an object file
-Code/board.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\TTC.dir\build.make CMakeFiles/TTC.dir/Code/board.cpp.obj
-.PHONY : Code/board.cpp.obj
+main.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\TTC.dir\build.make CMakeFiles/TTC.dir/main.cpp.obj
+.PHONY : main.cpp.obj
 
-Code/board.i: Code/board.cpp.i
-.PHONY : Code/board.i
-
-# target to preprocess a source file
-Code/board.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\TTC.dir\build.make CMakeFiles/TTC.dir/Code/board.cpp.i
-.PHONY : Code/board.cpp.i
-
-Code/board.s: Code/board.cpp.s
-.PHONY : Code/board.s
-
-# target to generate assembly for a file
-Code/board.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\TTC.dir\build.make CMakeFiles/TTC.dir/Code/board.cpp.s
-.PHONY : Code/board.cpp.s
-
-Code/game.obj: Code/game.cpp.obj
-.PHONY : Code/game.obj
-
-# target to build an object file
-Code/game.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\TTC.dir\build.make CMakeFiles/TTC.dir/Code/game.cpp.obj
-.PHONY : Code/game.cpp.obj
-
-Code/game.i: Code/game.cpp.i
-.PHONY : Code/game.i
+main.i: main.cpp.i
+.PHONY : main.i
 
 # target to preprocess a source file
-Code/game.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\TTC.dir\build.make CMakeFiles/TTC.dir/Code/game.cpp.i
-.PHONY : Code/game.cpp.i
+main.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\TTC.dir\build.make CMakeFiles/TTC.dir/main.cpp.i
+.PHONY : main.cpp.i
 
-Code/game.s: Code/game.cpp.s
-.PHONY : Code/game.s
-
-# target to generate assembly for a file
-Code/game.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\TTC.dir\build.make CMakeFiles/TTC.dir/Code/game.cpp.s
-.PHONY : Code/game.cpp.s
-
-Code/history.obj: Code/history.cpp.obj
-.PHONY : Code/history.obj
-
-# target to build an object file
-Code/history.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\TTC.dir\build.make CMakeFiles/TTC.dir/Code/history.cpp.obj
-.PHONY : Code/history.cpp.obj
-
-Code/history.i: Code/history.cpp.i
-.PHONY : Code/history.i
-
-# target to preprocess a source file
-Code/history.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\TTC.dir\build.make CMakeFiles/TTC.dir/Code/history.cpp.i
-.PHONY : Code/history.cpp.i
-
-Code/history.s: Code/history.cpp.s
-.PHONY : Code/history.s
+main.s: main.cpp.s
+.PHONY : main.s
 
 # target to generate assembly for a file
-Code/history.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\TTC.dir\build.make CMakeFiles/TTC.dir/Code/history.cpp.s
-.PHONY : Code/history.cpp.s
-
-Code/main.obj: Code/main.cpp.obj
-.PHONY : Code/main.obj
-
-# target to build an object file
-Code/main.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\TTC.dir\build.make CMakeFiles/TTC.dir/Code/main.cpp.obj
-.PHONY : Code/main.cpp.obj
-
-Code/main.i: Code/main.cpp.i
-.PHONY : Code/main.i
-
-# target to preprocess a source file
-Code/main.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\TTC.dir\build.make CMakeFiles/TTC.dir/Code/main.cpp.i
-.PHONY : Code/main.cpp.i
-
-Code/main.s: Code/main.cpp.s
-.PHONY : Code/main.s
-
-# target to generate assembly for a file
-Code/main.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\TTC.dir\build.make CMakeFiles/TTC.dir/Code/main.cpp.s
-.PHONY : Code/main.cpp.s
-
-Code/settings.obj: Code/settings.cpp.obj
-.PHONY : Code/settings.obj
-
-# target to build an object file
-Code/settings.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\TTC.dir\build.make CMakeFiles/TTC.dir/Code/settings.cpp.obj
-.PHONY : Code/settings.cpp.obj
-
-Code/settings.i: Code/settings.cpp.i
-.PHONY : Code/settings.i
-
-# target to preprocess a source file
-Code/settings.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\TTC.dir\build.make CMakeFiles/TTC.dir/Code/settings.cpp.i
-.PHONY : Code/settings.cpp.i
-
-Code/settings.s: Code/settings.cpp.s
-.PHONY : Code/settings.s
-
-# target to generate assembly for a file
-Code/settings.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\TTC.dir\build.make CMakeFiles/TTC.dir/Code/settings.cpp.s
-.PHONY : Code/settings.cpp.s
+main.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\TTC.dir\build.make CMakeFiles/TTC.dir/main.cpp.s
+.PHONY : main.cpp.s
 
 # Help Target
 help:
@@ -257,21 +174,10 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... TTC
-	@echo ... Code/board.obj
-	@echo ... Code/board.i
-	@echo ... Code/board.s
-	@echo ... Code/game.obj
-	@echo ... Code/game.i
-	@echo ... Code/game.s
-	@echo ... Code/history.obj
-	@echo ... Code/history.i
-	@echo ... Code/history.s
-	@echo ... Code/main.obj
-	@echo ... Code/main.i
-	@echo ... Code/main.s
-	@echo ... Code/settings.obj
-	@echo ... Code/settings.i
-	@echo ... Code/settings.s
+	@echo ... libttc
+	@echo ... main.obj
+	@echo ... main.i
+	@echo ... main.s
 .PHONY : help
 
 
