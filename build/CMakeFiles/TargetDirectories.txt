@@ -1,6 +1,0 @@
-C:/Users/parky/TTC/build/CMakeFiles/TTC.dir
-C:/Users/parky/TTC/build/CMakeFiles/edit_cache.dir
-C:/Users/parky/TTC/build/CMakeFiles/rebuild_cache.dir
-C:/Users/parky/TTC/build/lib/CMakeFiles/libttc.dir
-C:/Users/parky/TTC/build/lib/CMakeFiles/edit_cache.dir
-C:/Users/parky/TTC/build/lib/CMakeFiles/rebuild_cache.dir
