@@ -1,34 +1,29 @@
-name: CI-ZaharenkoSerhii_З-21  # Название workflow
+name: CI_ZaharenkoSerhii_З-21  
 
-on:  # Условия запуска
-  push:  # При пуше в ветки:
-    branches: [ main, boba ]  # main, master или dev (если нет dev — создайте её)
+on:
+  push:
+    branches: ["main"]
+  pull_request:
+    branches: ["main"]
 
 jobs:
   build:
-    name: CMake build  # Название задачи
-    runs-on: ubuntu-latest  # ОС для сборки
+    runs-on: ubuntu-latest
 
     steps:
-      # 1. Клонирование репозитория
-      - name: Clone repository
-        uses: actions/checkout@v4
+    - name:  Checkout repository
+      uses: actions/checkout@v4
 
-      # 2. Конфигурация CMake
-      - name: Configure CMake
-        run: |
-          mkdir build
-          cd build
-          cmake ..
-
-      # 3. Сборка проекта
-      - name: Build project
-        run: |
-          cd build
-          cmake --build .
-
-      # 4. Запуск программы
-      - name: Run program
-        run: |
-          cd build
-          ./TTC
+    - name:  Configure CMake
+      run: |
+        mkdir build
+        cd build
+        cmake ..
+    - name:  Build project
+      run: |
+        cd build
+        cmake --build .
+    - name:  Run program in test mode
+      run: |
+        cd build
+        ./TTC --test
